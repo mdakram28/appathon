@@ -1,0 +1,20 @@
+{
+  "name": "appathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "express": "^4.15.0",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.8.5",
+    "socket.io": "^1.7.3",
+    "socketio-jwt": "^4.5.0"
+  }
+}
